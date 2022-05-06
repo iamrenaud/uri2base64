@@ -1,7 +1,7 @@
 {
-  "name": "@rossbob/image-to-base64",
+  "name": "uri2base64",
   "version": "1.0.3",
-  "description": "Image file or image url to base64",
+  "description": "Media file or local file url to base64",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,11 +9,11 @@
     "test": "jest --coverage"
   },
   "keywords": [
-    "Image",
+    "media",
     "file",
     "base64"
   ],
-  "author": "HALLAERT Nicolas",
+  "author": "Yao Renaud WOANA",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.0.3",
@@ -26,12 +26,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rossb0b/imageToBase64.git"
+    "url": "git+https://github.com/iamrenaud/uri2base64.git"
   },
   "bugs": {
-    "url": "https://github.com/Rossb0b/imageToBase64/issues"
+    "url": "https://github.com/iamrenaud/uri2base64/issues"
   },
-  "homepage": "https://github.com/Rossb0b/imageToBase64#readme",
+  "homepage": "https://github.com/iamrenaud/uri2base64#readme",
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
